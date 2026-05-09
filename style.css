@@ -146,29 +146,13 @@ body {
   color: #FFF8EE;
 }
 
-.hero-image {
-  position: relative;
-  overflow: hidden;
+.hero-image img {
+  width: 500px;
+  max-width: 100%;
+  border-radius: 1.3rem;
+  border: none;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 10);
 }
-
-.hero-image::after {
-
-  content: "";
-
-  position: absolute;
-
-  inset: 0;
-
-  background:
-    linear-gradient(
-      to bottom,
-      transparent 60%,
-      #F3E8D3 100%
-    );
-
-  backdrop-filter: blur(8px);
-}
-
 /* SECTION TITLE */
 
 .section-title {
